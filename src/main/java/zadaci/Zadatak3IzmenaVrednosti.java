@@ -34,7 +34,7 @@ public class Zadatak3IzmenaVrednosti {
             where.eq(POLJE_NAZIV, "Activity klasa");
             PreparedQuery<Oblast> oblastPripremljen = oblastQuery.prepare();
             Oblast oblastZaIzmenu = oblastDao.queryForFirst(oblastPripremljen);
-            
+
             if (oblastZaIzmenu != null) {
                 oblastZaIzmenu.setPocetnaStrana(35);
                 oblastDao.update(oblastZaIzmenu);
