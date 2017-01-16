@@ -50,7 +50,7 @@ public class Zadatak2DodavanjeVrednosti {
             Oblast o4 = new Oblast("Android operativni sistem",2);
             o4.setKnjiga(k2);
             oblastDao.create(o4);
-            Oblast o5 = new Oblast("ctivity klasa",30);
+            Oblast o5 = new Oblast("Activity klasa",30);
             o5.setKnjiga(k2);
             oblastDao.create(o5);
 
